@@ -5,7 +5,7 @@ Official resource for the paper:
 
 ## Overview
 
-This repository contains the source code and preprocessed data used in our research paper. The dataset in this repository is preprocessed using Algorithm 1 in the paper to remove text overlay from the video. The raw video contains confidential information about the subject, such as the subject's name, medical record, etc. The raw dataset is available upon reasonable request to the corresponding author (Mgs. M. Luthfi Ramadhan: luthfiramadhan@unsri.ac.id) and is subject to evaluation by Dr. Lies Dina Liastuti.
+This repository contains the source code and processed data used in our research paper. The dataset in this repository is already processed using Algorithm 1 to remove text overlay from the video. The raw video contains confidential information about the subject, such as the subject's name, medical record, etc. The raw dataset is available upon reasonable request to the corresponding author (Mgs. M. Luthfi Ramadhan: luthfiramadhan@unsri.ac.id) and is subject to evaluation by Dr. Lies Dina Liastuti.
 
 ---
 
@@ -26,7 +26,7 @@ This repository contains the source code and preprocessed data used in our resea
 └── frame_refocusing.py  # Frame refocusing (Algorithm 1). If you are planning to use the processed dataset in this GitHub, you no longer need to run this code.
 ```
 
-### Software Environment
+## Software Environment
 The preprocessing pipeline is mainly implemented using **OpenCV 4.11.0**. For deep learning experiments, we utilized the official NVIDIA TensorFlow deep learning container tagged with:
 
 ```text

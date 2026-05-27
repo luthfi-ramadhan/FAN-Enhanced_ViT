@@ -1,4 +1,4 @@
-# Project Title
+# FAN-Enhanced Vision Transformer and Distributed Bidirectional Optical Flow for Heart Failure Detection from Echocardiography Videos
 
 Official resource for the paper:  
 **"FAN-Enhanced Vision Transformer and Distributed Bidirectional Optical Flow for Heart Failure Detection from Echocardiography Videos"**
@@ -16,8 +16,8 @@ This repository contains the source code and preprocessed data used in our resea
 ├── data/                # Dataset directory (Already preprocessed using Algorithm 1 to remove text overlay)
 ├── fan.py               # FAN layer
 ├── main.py              # Main training and evaluation script
-├── main.sh              # Shell script to run grid search
-├── preprocessing.py     # Data preprocessing
+├── main.sh              # Shell script to run grid search. This script repeatedly runs main.py with various hyperparameters
+├── preprocessing.py     # Data preprocessing pipeline. This includes Distance-Based Frame Selection (Algorithm 2) and Distributed Bidirectional Optical Flow (Algorithm 3)
 ├── transformer.py       # Transformer model
 ├── vit.py               # Vision Transformer (ViT) model
 └── README.md

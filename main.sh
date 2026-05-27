@@ -14,7 +14,7 @@ for view in ${views[@]}
             do
             for opt in ${opt_pool[@]}
                 do
-                    python main_cont.py "$batch" "$lr" "$opt" "$view"
+                    python main.py "$batch" "$lr" "$opt" "$view"
                 done
             done
         done
